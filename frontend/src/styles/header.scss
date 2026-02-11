@@ -2,20 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &-logo{
     
-    }
 
     &-nav{
         display: flex;
         align-items: center;
+        font-family: var(--font-fam);
         &-list{
-                
                 display: flex;
                 gap: 27px;
                 list-style: none;
                 font-size: 14px;
                 font-weight: bold;
+                
         }
     }
 
