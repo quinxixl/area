@@ -1,19 +1,14 @@
 .header {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    height: 88px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     &-logo{
-        position: relative;
-        justify-self: start;
-        width: 59px;
-        height: 36px;
+    
     }
 
     &-nav{
         display: flex;
-        justify-self: center;
-
+        align-items: center;
         &-list{
                 
                 display: flex;
