@@ -1,0 +1,39 @@
+.footer {
+  border-top: 1px solid #E9E9E9;
+}
+.footer-nav-list {
+  padding: 0;
+  margin: 40px 0 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 27px;
+  font-family: var(--font-fam);
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -2.5%;
+  font-weight: 700;
+}
+.footer-nav-list-item {
+  cursor: pointer;
+}
+.footer-bottom {
+  color: #485C11;
+  font-family: var(--font-subtitle);
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: -1%;
+  margin: 80px 0 20px 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+}
+.footer-bottom-rights {
+  margin-left: auto;
+}
+
+p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=footer.css.map */

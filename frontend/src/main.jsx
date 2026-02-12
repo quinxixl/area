@@ -7,6 +7,9 @@ import './styles/variables.css'
 import './styles/hero.css'
 import './styles/Benefits.css'
 import './styles/Benefits2.css'
+import './styles/map.css'
+import './styles/calltoaction.css'
+import './styles/footer.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
