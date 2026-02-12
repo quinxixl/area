@@ -1,1 +1,82 @@
-/*# sourceMappingURL=benefits2.css.map */
+@charset "UTF-8";
+.benefits2 {
+  display: flex;
+  margin-top: 120px;
+  gap: 20px;
+}
+.benefits2-left {
+  margin: 0;
+  padding-top: 60px;
+  width: 590px;
+  height: 711px;
+  border-top: 1px solid #E9E9E9;
+}
+.benefits2-left-title {
+  font-family: var(--font-title);
+  font-size: 60px;
+  line-height: 90%;
+  letter-spacing: -3%;
+  font-weight: 400;
+  margin: 0;
+}
+.benefits2-left-subtitle {
+  font-family: var(--font-fam);
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: -0.5%;
+  font-weight: 400;
+  margin: 40px 0 0 0;
+  color: #6F6F6F;
+  width: 510px;
+}
+.benefits2-left-container-list {
+  list-style: none; /* убираем стандартные цифры */
+  counter-reset: item; /* запускаем счётчик */
+  padding-left: 0;
+}
+.benefits2-left-container-list li {
+  font-family: var(--font-fam);
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: -0.5%;
+  font-weight: 400;
+  padding: 20px 0 20px 0;
+  counter-increment: item;
+  position: relative;
+  padding-left: 40px;
+  width: 459px;
+  border-top: 1px solid #E9E9E9;
+}
+.benefits2-left-container-list li::before {
+  content: counter(item, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  font-family: var(--font-fam);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.5%;
+  color: #6F6F6F;
+}
+.benefits2-left-cta {
+  margin-top: 40px;
+  width: 138px;
+  height: 48px;
+  border-radius: 1000px;
+  background-color: #DFECC6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefits2-left-cta-text {
+  font-family: var(--font-fam);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -2.5%;
+}
+.benefits2-img {
+  width: 590px;
+  height: 711px;
+  border-radius: 30px;
+}/*# sourceMappingURL=benefits2.css.map */
