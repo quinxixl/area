@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-fam);
+}
+.header-nav-list {
+  display: flex;
+  gap: 27px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 0;
+}
+.header-cta {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 127px;
+  height: 48px;
+  background-color: #485C11;
+  color: white;
+  font-size: 14px;
+  border-radius: 40px;
+  font-family: var(--font-fam);
+  font-weight: bold;
+}/*# sourceMappingURL=header.css.map */
