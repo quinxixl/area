@@ -19,7 +19,6 @@ export default function Hero(){
             <img src = {logo4} className="hero-swiper-img"/>
             <img src = {logo5} className="hero-swiper-img"/>
             <img src = {logo6} className="hero-swiper-img"/>
-
         </div>
         </div>
     );

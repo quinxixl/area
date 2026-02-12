@@ -1,0 +1,25 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 9em;
+}
+.quote__title {
+  border-top: 1px solid #E9E9E9;
+  border-bottom: 1px solid #E9E9E9;
+  padding: 8em 3em 1em 2em;
+  font-family: var(--font-title);
+}
+.quote__title-phrase {
+  font-size: 2em;
+}
+.quote__title-author {
+  font-family: var(--font-fam);
+  margin-top: 3em;
+}
+.quote__title-head {
+  font-family: var(--font-fam);
+  color: #485C11;
+}
+
+/*# sourceMappingURL=quote.css.map */

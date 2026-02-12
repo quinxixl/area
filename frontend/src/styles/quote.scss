@@ -1,0 +1,24 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 9em;
+
+  &__title{
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 8em 3em 1em 2em;
+    font-family: var(--font-title);
+    &-phrase{
+      font-size: 2em;
+    }
+    &-author{
+      font-family: var(--font-fam);
+      margin-top: 3em;
+    }
+    &-head{
+      font-family: var(--font-fam);
+      color: #485C11;
+    }
+  }
+}
